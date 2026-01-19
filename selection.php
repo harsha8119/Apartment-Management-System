@@ -1,0 +1,56 @@
+<?php 
+  session_start(); 
+
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Selection Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+        body{
+            background-image: url(bg23.jpg);
+            /* background-size: 100% 100%; */
+        }
+    </style>
+    <body>
+        <!-- <div class="box1">
+            <div class="select">
+                <h1>I AM</h1>
+
+            </div>
+
+        </div> -->
+        <style>
+            .block {
+              display: block;
+              width: 50%;
+              border: none;
+              background-color: #000000;
+              color: white;
+              padding: 14px 28px;
+              font-size: 16px;
+              cursor: pointer;
+              text-align: center;
+              position: center;
+            }
+        </style>
+        <a href="register.php">
+            <button class="block"><b>Owner</b></button>
+        </a>
+        <br>
+        <a href="register.php">
+            <button class="block"><b>Tenant</b></button>
+        </a>
+        <br>
+        <a href="register.php">
+            <button class="block"><b>Admin</b></button>
+        </a>
+        <br>
+        <script src="main.js"></script>
+    </body>
+</html>

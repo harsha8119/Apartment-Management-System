@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    font-size: 100%;
+    background-image: url("bg23.jpg");
+  }
+  
+  .header {
+    width: 100%;
+    margin: auto 0px;
+    color: rgb(255, 255, 255);
+    background: teal;
+    text-align: center;
+    padding: 20px;
+  }
+
+  form, .content {
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid rgb(41, 212, 181);
+    background: palevioletred;
+    opacity: 0.9;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+
+  .input-form {
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid palevioletred;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: teal;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid palevioletred; 
+    color: palevioletred; 
+    background: pink; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
+
+  .box1 {
+    width: 100%;
+    margin: 50px auto 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* border: 1px solid #B0C4DE; */
+    /* border-bottom: none; */
+    /* border-radius: 10px 10px 0px 0px; */
+    padding-bottom: 20px;
+  }
+
+  @media only screen and (max-width:900px) {
+    /* .container {
+        display: block;
+        padding: 20px 0;
+        background: transparent;
+        align-items: center;
+    } */
+
+    /* .input-form,
+    .table {
+        width: 100%;
+        padding: 0 10px;
+    } */
+
+    h1 {
+        font-size: 30px;
+    }
+/* 
+    .input-form form {
+        padding: 10px;
+        margin: 0;
+    } */
+
+    /* .input-group .input-field {
+        font-size: 14px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid rgb(204, 203, 203);
+        border-radius: 0;
+    } */
+
+    .line {
+        margin: 30px auto;
+        height: 2px;
+        width: 90%;
+        background: rgb(202, 0, 0);
+    }
+
+    input:focus~label,
+    input:valid~label,
+    textarea:focus~label,
+    textarea:valid~label {
+        top: -6px;
+    }
+}
